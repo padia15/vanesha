@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banyak Tombol Teks</title>
+    <style>
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #5b4e6a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="showText1()">˚01☕️✧˚</button>
+    <button onclick="showText2()">˙✧02📷˖°</button>
+    <button onclick="showText3()">♡₊03🦢˚°</button>
+    <button onclick="showText4()">₊04🌱 ˚ʚ</button>
+    <button onclick="showText5()">˚01☕️✧˚</button>
+    <button onclick="showText6()">˙✧02📷˖°</button>
+    <button onclick="showText7()">♡₊03🦢˚°</button>
+    <button onclick="showText8()">₊04🌱 ˚ʚ</button>
+    <button onclick="showText9()">˚01☕️✧˚</button>
+    <button onclick="showText10()">˙✧02📷˖°</button>
+    <button onclick="showText11()">♡₊03🦢˚°</button>
+    <button onclick="showText12()">₊04🌱 ˚ʚ</button>
+    <button onclick="showText13()">˚01☕️✧˚</button>
+    <button onclick="showText14()">˙✧02📷˖°</button>
+    <button onclick="showText15()">♡₊03🦢˚°</button>
+    <button onclick="showText16()">₊04🌱 ˚ʚ</button>
+    <div id="output"></div> <!-- Area untuk teks yang muncul -->
+
+    <script>
+        function showText1() {
+            document.getElementById("output").innerText = "semoga mimpi kamu tercapai ya<𝟑 •┈୨♡୧┈•";
+        }
+
+        function showText2() {
+            document.getElementById("output").innerText = "kamu tetap yang terbaik hari ini, esok, dan seterusnya:). ⋆⭒˚.⋆";
+        }
+
+        function showText3() {
+            document.getElementById("output").innerText = "berjuang terus yaa, sampai mendapatkan apa yang kamu inginkan. ꒰ᐢ. .ᐢ꒱ ";
+        }
+
+        function showText4() {
+            document.getElementById("output").innerText = "Ini adalah teks dari Tombol 3!";
+        }
+    </script>
+</body>
+</html>
